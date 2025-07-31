@@ -1,0 +1,12 @@
+public class Sum_no {
+
+	public static void main(String[] args) {
+		int a = 10;
+		int result=0;
+		for(int i =1; i<=a; i++) {
+			result+=i;
+			
+		}
+		System.out.println("The sum of "+a+" numbers is: "+result);
+	}
+}
